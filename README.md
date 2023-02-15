@@ -5,9 +5,9 @@
 
 in.xlsx:
 
-| A                                     |
-|---------------------------------------| 
-| =COUNTA(INDIRECT("A2:A" & ROWS(A:A))) |
+|     | A                                     |
+|----:|---------------------------------------|
+|   1 | =COUNTA(INDIRECT("A2:A" & ROWS(A:A))) |
 
 PhpSpreadsheet throws Exception:
 
