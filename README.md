@@ -5,9 +5,10 @@
 
 in.xlsx:
 
-|     | A                                     |
-|----:|---------------------------------------|
-|   1 | =COUNTA(INDIRECT("A2:A" & ROWS(A:A))) |
+|     | A                                     | B                            |
+|----:|---------------------------------------|------------------------------|
+|   1 | =COUNTA(INDIRECT("A2:A" & ROWS(A:A))) | <- count from A2 to end of A |
+
 
 PhpSpreadsheet throws Exception:
 
