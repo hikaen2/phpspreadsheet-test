@@ -3,6 +3,12 @@
 
 ## Result
 
+in.xlsx:
+
+| A                                     |
+|---------------------------------------| 
+| =COUNTA(INDIRECT("A2:A" & ROWS(A:A))) |
+
 PhpSpreadsheet throws Exception:
 
 ```
